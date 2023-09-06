@@ -1,6 +1,6 @@
 #sobre-mim{
     background-color: #273DCDC4;
-    height: 100%;
+    width: 100%;
     padding-top: 10px;
 }
 
@@ -17,13 +17,21 @@
         align-items: center;
     }
 
-    #sm-title{
+    h3#sm-title{
         text-align: center;
+        margin: 0px;  
+        justify-content: center;  
     }
 
     div.sm-resume{
         width: 100%;
         text-align: center;
+        padding: 0;
+    }
+
+    p#sm-text{
+        margin: 0;
+        padding: 20px;
     }
 
     div.card-container{
@@ -31,6 +39,8 @@
         width: 60%;
         height: fit-content;
         text-align: justify;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     div.colunas{
@@ -51,7 +61,7 @@
 .sm-resume{
     width: 25%;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 40px;
+    padding-left: 40px;
     color: white;
     padding-bottom: 10px;
 }
@@ -139,6 +149,7 @@
 
 #projects{
     background-color: black;
+    width: 100%;
 }
 
 .projects-section-title{
@@ -197,7 +208,7 @@
 
 .project-img:hover{
     box-shadow: 0 0 20px #FFBA52;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .NerdVision .project-img{
@@ -206,7 +217,7 @@
 
 .NerdVision .project-img:hover{
     box-shadow: 0 0 20px #E90F0D;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .HamburgueriaTrindade .project-img{
