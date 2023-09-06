@@ -1,0 +1,250 @@
+#sobre-mim{
+    background-color: #273DCDC4;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.sm-elements{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1337px){
+    .sm-elements{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sm-title{
+        text-align: center;
+    }
+
+    div.sm-resume{
+        width: 100%;
+        text-align: center;
+    }
+
+    div.card-container{
+        margin-top: 20px;
+        width: 60%;
+        height: fit-content;
+        text-align: justify;
+    }
+
+    div.colunas{
+        margin-left: 18%;
+        margin-right: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 598px){
+    div.colunas{
+        flex-direction: column;
+        margin-left: 20%;
+        margin-right: 20px;
+    }
+}
+
+.sm-resume{
+    width: 25%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#sm-title{
+    font-family: 'Open sans', sans-serif;
+    font-size: 35px;
+    margin-left: 40px;
+    color: white;
+}
+
+.card-container{
+    width: 269px;
+    height: 340px;
+    background-color: #D9D9D9;
+    font-family: 'Open sans', sans-serif;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.sm-elements:hover>.card-container{
+    opacity: .3;
+}
+
+.sm-elements:hover>.card-container:hover{
+    opacity: 1;
+}
+
+.colunas{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.coluna{
+    flex: 0 0 48%;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+#card-title{
+    font-size: 20px;
+    color: #273DCD;
+    text-align: center;
+}
+
+.check-img{
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+.list-element{
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.teaching-list{
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 10px;
+}
+
+.teaching-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.institution-time{
+    font-size: 7px;
+    color: rgba(0, 0, 0, 0.38);
+    font-weight: 600;
+}
+
+.degree-resume{
+    font-size: 7px;
+    color: rgba(0, 0, 0, 0.38);
+    font-weight: 700;
+}
+
+#projects{
+    background-color: black;
+}
+
+.projects-section-title{
+    display: flex;
+    justify-content: center;
+}
+
+.projects-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 287px;
+    height: 48px;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.63);
+    background: none;
+    border: 2px solid #273DCD;
+}
+
+.projects-button:hover{
+    background-color: #273DCD;
+    border: 2px solid rgba(255, 255, 255, 0.63);
+    color: rgba(0, 0, 0, 0.745);
+    font-weight: 700;
+    transition: 1s;
+}
+
+.project-title{
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.95) 19.27%, rgba(255, 255, 255, 0.95) 51.56%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img-container{
+    display:flex;
+    justify-content: center;
+}
+
+.project-img{
+    display: flex;
+    width: 974px;
+    height: 665px;
+    border: 2px solid #FFBA52;
+    border-radius: 26px;
+    align-content: center;
+    transition: 1s;
+}
+
+.project-img:hover{
+    box-shadow: 0 0 20px #FFBA52;
+    transition: 1s;
+}
+
+.NerdVision .project-img{
+    border: 2px solid #E90F0D;
+}
+
+.NerdVision .project-img:hover{
+    box-shadow: 0 0 20px #E90F0D;
+    transition: 1s;
+}
+
+.HamburgueriaTrindade .project-img{
+    border: 2px solid #F5A745;
+}
+
+.project-resume-container{
+   display: flex;
+   justify-content: center;
+}
+
+.project-resume{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.54);
+    text-align: justify;
+    width: 974px;
+}
+
+@media only screen and (max-width: 1008px){
+    .project-img{
+        width: 80%;
+        height: 40%;
+    }
+
+    .NerdVision .project-img{
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .HamburgueriaTrindade .project-img{
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .project-title{
+        font-size: 30px;
+    }
+}
