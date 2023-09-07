@@ -41,6 +41,10 @@ a{
     border: none;
 }
 
+.menu .menu-content img{
+    padding-top: 20px;
+}
+
 .menu-content{
     color: white;
     font-family: 'Open Sans', sans-serif;
