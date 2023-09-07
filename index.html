@@ -11,16 +11,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/header.css"/>
     <link rel="stylesheet" href="./style/sections.css"/>
+    <link rel="stylesheet" href="./style/footer.css"/>
+    <link rel="stylesheet" href="./style/menu.css"/>
     <title>Nickolas Martins || Portfolio</title>
 </head>
 <body>
+    <div class="menu">
+      <div class="menu-content">
+        <button onclick="CloseMenu()" class="dispose-menu"><img src="./assets/icons8-x-50.png" width="40" height="40"/></button>
+        <h6>Sobre mim</h6>
+        <h6>Projetos</h6>
+        <h6>Contato</h6>
+        <a href="https://www.linkedin.com/in/nickolas-martins-6b0424255/"><img class="navbar-logo" src="https://blog.waalaxy.com/wp-content/uploads/2021/01/LinkedIn-Symbole.png" width="85" height="50"/></a> 
+        <a href="https://github.com/itsmenicky"><img class="navbar-logo" src="https://icones.pro/wp-content/uploads/2021/06/icone-github-bleu.png" width="50" height="50"/></a>
+      </div>
+    </div>
+
+
     <header>
         <div class="navbar">
             <h3 id="nickolas-logo">Nickolas Martins</h5> 
+            <button onclick="OpenMenu()" class="menu-icon"><img src="./assets/icons8-menu-30.png"/></button>
             <a href="#sobre-mim" style="text-decoration: none; color:rgba(255, 255, 255, 0.45);"><h6 class="navbar-links">Sobre mim</h6></a>
             <a href="#projects" style="text-decoration: none; color:rgba(255, 255, 255, 0.45);"><h6 class="navbar-links">Projetos</h6></a>
         </div>
-        
+
         <div class="navbar-logos">
             <a href="https://www.linkedin.com/in/nickolas-martins-6b0424255/"><img class="navbar-logo" src="https://blog.waalaxy.com/wp-content/uploads/2021/01/LinkedIn-Symbole.png" width="85" height="50"/></a> 
             <a href="https://github.com/itsmenicky"><img class="navbar-logo" src="https://icones.pro/wp-content/uploads/2021/06/icone-github-bleu.png" width="50" height="50"/></a>
@@ -94,7 +109,7 @@
                     <p class="institution-time">Etec São Mateus - 2020 a 2022</p>
                     <p class="degree-resume">Formado em técnico em informática pela ETEC São Mateus, com o desenvolvimento de um projeto inovador para o Trabalho de Conclusão de Curso (TCC), no qual criei um compartilhador de arquivos colaborativo com funcionalidades de gestão de equipes.</p>
                     <li class="teaching-title">Curso de Graduação em Sistemas de Informação</li>
-                    <p class="institution-time">Faculdade Impacta - 2023 a 2027</p>
+                    <p class="institution-time">Faculdade Impacta - 2023 a 2030</p>
                     <p class="degree-resume">Cursando</p>
                 </ul>
             </div>
@@ -138,7 +153,20 @@
         </section>
       </main>
 
-    <footer></footer>
+    <footer>
+      <p class="footer-text">Estou constantemente em busca de aprimorar meus conhecimentos e explorar novas tecnologias, sempre aberto a desafios empolgantes que me permitam crescer como profissional e contribuir para projetos inovadores.</p>
+      <div class="footer-social-medias">
+        <a href="https://www.linkedin.com/in/nickolas-martins-6b0424255/"><img src="https://blog.waalaxy.com/wp-content/uploads/2021/01/LinkedIn-Symbole.png" width="50" height="30"/></a>
+        <a href="https://github.com/itsmenicky"><img src="https://icones.pro/wp-content/uploads/2021/06/icone-github-bleu.png" width="30" height="30"/></a>
+      </div>
+      <ul class="footer-links">
+        <li>Contato</li>
+        <a class="download-cv-button" href="https://drive.google.com/file/d/1VGPpx2O8jSlpF_ExCjTkaxWvbspJtGG1/view?usp=sharing" target="_blank"><li>Currículo</li></a>
+        <a class="email-button" href="mailto:nick104@outlook.com"><li>Email</li></a>
+      </ul>
+
+      <h6 class="footer-logo">Nickolas Martins</h6>
+    </footer>
 </body>
 <script src="./script/script.js"></script>
 </html>

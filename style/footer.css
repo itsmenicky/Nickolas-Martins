@@ -1,0 +1,58 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-top: 2px solid #273DCD;
+}
+
+.footer-text{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 677px){
+    .footer-text{
+        width: 100%;
+    }
+}
+
+.footer-social-medias{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+ul{
+    list-style: none;
+    padding-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+ul li:first-child{
+    list-style: none;
+}
+
+.footer-logo{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.download-cv-button, .email-button{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.63);
+}
