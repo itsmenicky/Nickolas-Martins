@@ -1,3 +1,7 @@
+:root{
+    --cor-padrao: #FFBA52;
+}
+
 #sobre-mim{
     background-color: #273DCDC4;
     width: 100%;
@@ -212,18 +216,14 @@
     transition: 1s;
 }
 
-.project-img:hover{
-    box-shadow: 0 0 20px #FFBA52;
-    transition: 0.5s;
+.neon{
+    --cor-desejada: var(--cor-padrao);
+    box-shadow: 0 0 20px var(--cor-desejada);
+    transition: 1s;
 }
 
 .NerdVision .project-img{
     border: 2px solid #E90F0D;
-}
-
-.NerdVision .project-img:hover{
-    box-shadow: 0 0 20px #E90F0D;
-    transition: 0.5s;
 }
 
 .HamburgueriaTrindade .project-img{

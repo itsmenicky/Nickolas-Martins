@@ -23,3 +23,20 @@ addEventListener('scroll', (e) => {
         CloseMenu();
       }
 })
+
+const observer = new IntersectionObserver(entries => {
+    Array.from(entries).forEach(entry => {
+        const cor = entry.target.getAttribute('data-shadow-color');
+        entry.target.style.setProperty('--cor-desejada', cor);
+        if(entry.intersectionRatio <= 0){
+            entry.target.classList.remove('neon');
+        }else{
+            entry.target.classList.add('neon');
+        }
+    })
+})
+
+Array.from(document.querySelectorAll('.project-img')).forEach(element =>{
+    observer.observe(element)
+})
+
