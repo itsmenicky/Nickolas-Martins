@@ -1,7 +1,9 @@
 const menu = document.querySelector(".menu");
+menuOpen = false;
 
 function OpenMenu(){
     menu.style.display = "block";
+    menuOpen = true;
     document.documentElement.style.setProperty('overflow', 'hidden');
 }
 
@@ -15,3 +17,9 @@ function CloseMenu(){
         menu.style.display = 'none'; // Esconde o menu após a animação
     }, 1000); // Ajuste o valor para corresponder à duração da animação em milissegundos
 }
+
+addEventListener('scroll', (e) => {
+      if(menuOpen = true){
+        CloseMenu();
+      }
+})

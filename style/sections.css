@@ -125,9 +125,14 @@
     color: rgba(0, 0, 0, 0.58);
 }
 
+ul{
+    padding: 0;
+}
+
 .teaching-list{
     font-family: 'Montserrat', sans-serif;
     padding-right: 10px;
+    padding-left: 10px;
 }
 
 .teaching-title{
