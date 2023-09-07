@@ -128,6 +128,9 @@ header{
     font-weight: bold;
     padding-left: 20px;
     z-index: 2000;
+    position: fixed;
+    backdrop-filter: blur(1px);
+    background: linear-gradient(180deg, rgba(0,0,0,0.4) 10%, rgba(0,0,0,0.0) 100%);
 }
 
 #nickolas-logo{
@@ -142,8 +145,8 @@ header{
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 20px;
-    margin-right: 20px;
+    padding-top: 20px;
+    padding-right: 45px;
     gap: 20px
 }
 
