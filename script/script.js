@@ -2,10 +2,12 @@ const menu = document.querySelector(".menu");
 
 function OpenMenu(){
     menu.style.display = "block";
+    document.documentElement.style.setProperty('overflow', 'hidden');
 }
 
 function CloseMenu(){
     menu.classList.add('fechamento');
+    document.documentElement.style.setProperty('overflow', 'auto');
 
     // Define um tempo para remover a classe após a animação
     setTimeout(() => {

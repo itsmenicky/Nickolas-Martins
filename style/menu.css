@@ -23,7 +23,7 @@
     position: fixed;
     background: rgba(0, 0, 0, 0.932);
     animation: open 1s;
-    z-index: 1000;
+    z-index: 3000;
     padding-top: 50px;
 }
 
